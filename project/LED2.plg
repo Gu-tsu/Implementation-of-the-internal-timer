@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\2019毕设-5月份\2019-12-5\51定时器时钟-1602显示-可调\程序\LED2.uvproj
+Project File Date:  06/26/2013
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling led.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE_NIAN?LED
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?TIMER0?LED
+Program Size: data=30.0 xdata=0 code=1912
+creating hex file from "LED2"...
+"LED2" - 0 Error(s), 1 Warning(s).
